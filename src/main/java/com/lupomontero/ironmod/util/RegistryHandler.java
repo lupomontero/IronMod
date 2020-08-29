@@ -2,10 +2,12 @@ package com.lupomontero.ironmod.util;
 
 import com.lupomontero.ironmod.IronMod;
 import com.lupomontero.ironmod.armor.IronModArmorMaterial;
+import com.lupomontero.ironmod.blocks.LuckyBlock;
 import com.lupomontero.ironmod.items.ArcReactor;
 
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
 
@@ -160,5 +162,17 @@ public class RegistryHandler {
       EquipmentSlotType.FEET,
       new Item.Properties().group(IronMod.TAB)
     )
+  );
+
+  // Blocks
+  public static final RegistryObject<Block> LUCKY_BLOCK = BLOCKS.register(
+    "lucky_block",
+    LuckyBlock::new
+  );
+
+  // Block items
+  public static final RegistryObject<Item> LUCKY_BLOCK_ITEM = ITEMS.register(
+    "lucky_block",
+    () -> new BlockItem(LUCKY_BLOCK.get(), new Item.Properties().group(IronMod.TAB))
   );
 }
