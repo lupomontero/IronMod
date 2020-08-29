@@ -2,11 +2,86 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": { "min": 0, "max": 1 },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:lucky_block",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:arc_reactor",
+          "weight": 1
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "ironmod:lucky_block"
+          "name": "ironmod:ironman_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_leggings"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_helmet_mk2"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_chestplate_mk2"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_leggings_mk2"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_boots_mk2"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_helmet_mk3"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_chestplate_mk3"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_leggings_mk3"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_boots_mk3"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_helmet_mk4"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_chestplate_mk4"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_leggings_mk4"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironmod:ironman_boots_mk4"
         }
       ]
     }
